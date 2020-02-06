@@ -1,0 +1,120 @@
+#image {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+
+#image1 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+
+#image2 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+
+#image3 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image4 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image5 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image6 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image7 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image8 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+#image9 {
+	border: 2px solid gray;
+	background-color: skyblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+
+}
+
+.container {
+	
+	
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.column {
+	flex-basis: 10%;
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+
+@media screen and (max-width: 1024px) {
+	.column{
+		flex-basis: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.column{
+		flex-basis: 33.33%;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.column{
+		flex-basis: 100%;
+	}
+}
